@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssessmentView">
+    <include layout="@layout/logout_button_layout" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:text="Material"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center" />
+
+            <TextView
+                android:text="Name"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:gravity="center" />
+
+            <TextView
+                android:text="Year"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center" />
+
+            <TextView
+                android:text="Action"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
